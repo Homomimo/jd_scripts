@@ -1,6 +1,7 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*
 '''
+1 8,15 * * * jd_OpenCard.py
 项目名称: JD_OpenCard
 Author: Curtin
 功能：JD入会开卡领取京豆
