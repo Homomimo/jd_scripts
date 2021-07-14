@@ -207,7 +207,7 @@ async function joyReward() {
 function getExchangeRewards() {
   return new Promise((resolve) => {
     const option = {
-      url: `${JD_API_HOST}/common/gift/getBeanConfigs?reqSource=h5&invokeKey=NRp8OPxZMFXmGkaE`,
+      url: `${JD_API_HOST}/common/gift/getBeanConfigs?reqSource=h5&invokeKey=qRKHmL4sna8ZOP9F`,
       headers: {
         "Host": "jdjoy.jd.com",
         "Content-Type": "application/json",
