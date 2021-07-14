@@ -245,7 +245,7 @@ function exchange(saleInfoId, orderSource) {
   let body = {"buyParam":{"orderSource":orderSource,"saleInfoId":saleInfoId},"deviceInfo":{}}
   return new Promise((resolve) => {
     const option = {
-      url: `${JD_API_HOST}/common/gift/new/exchange?reqSource=h5&invokeKey=NRp8OPxZMFXmGkaE`,
+      url: `${JD_API_HOST}/common/gift/new/exchange?reqSource=h5&invokeKey=qRKHmL4sna8ZOP9F`,
       body: `${JSON.stringify(body)}`,
       headers: {
         "Host": "jdjoy.jd.com",
