@@ -14,7 +14,7 @@ update: 2021.7.13 22:21
 * 修复0点不能开团
 * 兼容pin为中文转码编码
 '''
-# cron 0 0 * * * jd_qjd.py
+# cron 0 0 * * * 全民抢京豆
 #ck 优先读取【JDCookies.txt】 文件内的ck  再到 ENV的 变量 JD_COOKIE='ck1&ck2' 最后才到脚本内 cookies=ck
 cookies = ''
 qjd_zlzh = ['Your JD_User', '买买买']
