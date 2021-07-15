@@ -12,7 +12,7 @@ TG通知群 https://t.me/ningmeng999
 */
 // [task_local]
 // #柠檬旺财乐园
-// */5 * * * * 
+// */5 * * * * jd_joy-park.js
 
 const $ = new Env('柠檬旺财乐园新手上路版');
 const notify = $.isNode() ? require('./sendNotify') : '';
