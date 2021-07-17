@@ -32,8 +32,8 @@ var out = 0; //接口超时退出, 用于可能发生的网络不稳定, 0则关
 
 var $nobyda = nobyda();
 
-const zooFaker = require('./utils/JDJRValidator_Pure')
-const Faker = require('./utils/JDSignValidator')
+const Faker = require('./JDSignValidator')
+const zooFaker = require('./JDJRValidator_Pure')
 let fp = '', eid = ''
 
 $nobyda.get = zooFaker.injectToRequest2($nobyda.get.bind($nobyda), 'channelSign')
@@ -1501,7 +1501,7 @@ function TotalBean() {
   return new Promise(resolve => {
     if (disable("Qbear")) return resolve()
     $nobyda.get({
-      url: 'https://me-api.jd.com/user_new/info/GetJDUserInfoUnion',
+      url: 'https://me-api.jd.com/user_new/info/GetJDUserInfoUnion?sceneval=2',
       headers: {
         Cookie: KEY
       }
